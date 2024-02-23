@@ -28,7 +28,7 @@ class NewTestListener {
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
 	@BeforeTestSuite
-	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		println testSuiteContext.getTestSuiteId()
+	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+		println (testSuiteContext.getTestSuiteId())
 	}
 }
