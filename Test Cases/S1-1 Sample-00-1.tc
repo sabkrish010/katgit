@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Sample-00-1
+Description: Test Steps:
+1. openBrowser(&quot;&quot;)
+2. navigateToUrl(&quot;https://katalon-demo-cura.herokuapp.com/&quot;)
+3. waitForElementClickable(findTestObject(&quot;Page_CURA Healthcare Service/a_Make Appointment&quot;), 10)
+4. click(findTestObject(&quot;Object Repository/Page_CURA Healthcare Service/a_Make Appoint&quot;))
+5. Video
+
+Error message: Test Cases/click2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at click2.run(click2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707764926699.run(TempTestSuite1707764926699.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+</description>
+   <name>S1-1 Sample-00-1</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0000f:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://sabaree10krish.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;S1&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;Sample-1&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Sample-00-1&quot;,&quot;description&quot;:&quot;Test Steps:\n1. openBrowser(\&quot;\&quot;)\n2. navigateToUrl(\&quot;https://katalon-demo-cura.herokuapp.com/\&quot;)\n3. waitForElementClickable(findTestObject(\&quot;Page_CURA Healthcare Service/a_Make Appointment\&quot;), 10)\n4. click(findTestObject(\&quot;Object Repository/Page_CURA Healthcare Service/a_Make Appoint\&quot;))\n5. Video\n\nError message: Test Cases/click2 FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Unable to click on object\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)\n\tat click2.run(click2:26)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)\n\tat TempTestSuite1707764926699.run(TempTestSuite1707764926699.groovy:36)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\nCaused by: java.lang.IllegalArgumentException: Object is null\n\tat com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:62)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\n\t... 20 more\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;sabaree10krish@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;sabareesh krishnan&quot;,&quot;accountId&quot;:&quot;712020:e4d9c49f-3bc4-4f2e-ae0a-aeecde18bf0b&quot;,&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/user?accountId\u003d712020%3Ae4d9c49f-3bc4-4f2e-ae0a-aeecde18bf0b&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/issue/S1-1/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/issue/10002&quot;,&quot;key&quot;:&quot;S1-1&quot;,&quot;id&quot;:10002}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>721e0401-d8b7-4821-938d-9c74999270cb</testCaseGuid>
+</TestCaseEntity>

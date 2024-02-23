@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Test execution 34
+Description: https://testops.katalon.io/team/1345586/project/1365736/executions/34
+|| Test Case || Environment || Status || Duration || Result Link ||
+    | [TC1_Verify Successful Login|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996953-tc1_verify-successful-login] | TestCloud Windows 11 Chrome  | PASSED | 16s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24112132/test-result/202395031-tc1_verify-successful-login] |
+    | [TC2_Verify Successful Appointment|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996954-tc2_verify-successful-appointment] | TestCloud Windows 11 Chrome  | PASSED | 16s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24112132/test-result/202395032-tc2_verify-successful-appointment] |
+    | [TC3_Visual Testing Example|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996952-tc3_visual-testing-example] | TestCloud Windows 11 Chrome  | PASSED | 31s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24112132/test-result/202395033-tc3_visual-testing-example] |
+ 
+To download your report files, please use the following links:
+ * For PDF report files, click [here|https://testops.katalon.io/team/1345586/project/1365736/download/973179889].
+ * For ZIP report files, click [here|https://testops.katalon.io/team/1345586/project/1365736/download/973179890].
+Test Steps:
+1. openBrowser(&quot;&quot;)
+2. navigateToUrl(&quot;https://katalon-demo-cura.herokuapp.com/&quot;)
+3. waitForElementClickable(findTestObject(&quot;Page_CURA Healthcare Service/h1_CURA Healthcare Service&quot;), 10)
+4. click(findTestObject(&quot;Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service&quot;))
+5. closeBrowser()
+6. Video
+
+</description>
+   <name>S1-2 Test execution 34</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0000n:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://sabaree10krish.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;S1&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;Sample-1&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Test execution 34&quot;,&quot;description&quot;:&quot;https://testops.katalon.io/team/1345586/project/1365736/executions/34\n|| Test Case || Environment || Status || Duration || Result Link ||\n    | [TC1_Verify Successful Login|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996953-tc1_verify-successful-login] | TestCloud Windows 11 Chrome  | PASSED | 16s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24112132/test-result/202395031-tc1_verify-successful-login] |\n    | [TC2_Verify Successful Appointment|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996954-tc2_verify-successful-appointment] | TestCloud Windows 11 Chrome  | PASSED | 16s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24112132/test-result/202395032-tc2_verify-successful-appointment] |\n    | [TC3_Visual Testing Example|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996952-tc3_visual-testing-example] | TestCloud Windows 11 Chrome  | PASSED | 31s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24112132/test-result/202395033-tc3_visual-testing-example] |\n \nTo download your report files, please use the following links:\n * For PDF report files, click [here|https://testops.katalon.io/team/1345586/project/1365736/download/973179889].\n * For ZIP report files, click [here|https://testops.katalon.io/team/1345586/project/1365736/download/973179890].\nTest Steps:\n1. openBrowser(\&quot;\&quot;)\n2. navigateToUrl(\&quot;https://katalon-demo-cura.herokuapp.com/\&quot;)\n3. waitForElementClickable(findTestObject(\&quot;Page_CURA Healthcare Service/h1_CURA Healthcare Service\&quot;), 10)\n4. click(findTestObject(\&quot;Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service\&quot;))\n5. closeBrowser()\n6. Video\n\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;sabaree10krish@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;sabareesh krishnan&quot;,&quot;accountId&quot;:&quot;712020:e4d9c49f-3bc4-4f2e-ae0a-aeecde18bf0b&quot;,&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/user?accountId\u003d712020%3Ae4d9c49f-3bc4-4f2e-ae0a-aeecde18bf0b&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/issue/S1-2/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/issue/10003&quot;,&quot;key&quot;:&quot;S1-2&quot;,&quot;id&quot;:10003}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>56605706-f844-41bc-a875-9cd7f50c4668</testCaseGuid>
+</TestCaseEntity>

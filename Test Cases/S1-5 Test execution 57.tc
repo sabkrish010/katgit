@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Test execution 57
+Description: https://testops.katalon.io/team/1345586/project/1365736/executions/57
+|| Test Case || Environment || Status || Duration || Result Link ||
+    | [Order and check out multiple products|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996605-order-and-check-out-multiple-products] | TestCloud Windows 11 Chrome  | PASSED | 1m 3s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24192880/test-result/202642403-order-and-check-out-multiple-products] |
+    | [Order and check out multiple products|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996605-order-and-check-out-multiple-products] | TestCloud macOS Safari  | FAILED | 24s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24192880/test-result/202642450-order-and-check-out-multiple-products] |
+</description>
+   <name>S1-5 Test execution 57</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0001b:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://sabaree10krish.atlassian.net/&quot;,&quot;statusCategory&quot;:{&quot;id&quot;:2,&quot;key&quot;:&quot;new&quot;,&quot;colorName&quot;:&quot;blue-gray&quot;,&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/statuscategory/2&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;S1&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;Sample-1&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Test execution 57&quot;,&quot;description&quot;:&quot;https://testops.katalon.io/team/1345586/project/1365736/executions/57\n|| Test Case || Environment || Status || Duration || Result Link ||\n    | [Order and check out multiple products|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996605-order-and-check-out-multiple-products] | TestCloud Windows 11 Chrome  | PASSED | 1m 3s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24192880/test-result/202642403-order-and-check-out-multiple-products] |\n    | [Order and check out multiple products|https://testops.katalon.io/team/1345586/project/1365736/test-design/test-cases/7996605-order-and-check-out-multiple-products] | TestCloud macOS Safari  | FAILED | 24s | [Details|https://testops.katalon.io/team/1345586/project/1365736/executions/24192880/test-result/202642450-order-and-check-out-multiple-products] |\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;sabaree10krish@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;sabareesh krishnan&quot;,&quot;accountId&quot;:&quot;712020:e4d9c49f-3bc4-4f2e-ae0a-aeecde18bf0b&quot;,&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/user?accountId\u003d712020%3Ae4d9c49f-3bc4-4f2e-ae0a-aeecde18bf0b&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/issue/S1-5/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://sabaree10krish.atlassian.net/rest/api/2/issue/10006&quot;,&quot;key&quot;:&quot;S1-5&quot;,&quot;id&quot;:10006}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>61e6ff1d-255d-4fc8-b2b6-00ab5edd8ad4</testCaseGuid>
+</TestCaseEntity>
