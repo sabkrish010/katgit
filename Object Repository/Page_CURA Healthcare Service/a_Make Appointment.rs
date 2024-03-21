@@ -6,12 +6,12 @@
    <elementGuidId>04b26bc2-ad99-47a9-976d-f5bb8193101d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#btn-make-appointment</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='btn-make-appointment']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn-make-appointment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3173bc72-0d57-4987-bfd3-7a4daed9ad0a</webElementGuid>
+      <webElementGuid>fddb15f7-46f8-463e-8745-58e82e24a984</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btn-make-appointment</value>
-      <webElementGuid>565eba64-1664-477b-8265-40cebf997cb8</webElementGuid>
+      <webElementGuid>b8b0e63a-2dcf-459c-a19c-b4cbc24a42a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>./profile.php#login</value>
-      <webElementGuid>6a33702c-d211-47db-959c-f3c99a238719</webElementGuid>
+      <webElementGuid>580b6eb3-248d-4c6e-8f1e-49e23a0e9f72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-dark btn-lg</value>
-      <webElementGuid>c22c53a7-0dfe-4072-b5f6-e48915bad906</webElementGuid>
+      <webElementGuid>583fb21d-1073-4179-9b29-e68425edf15d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Make Appointment</value>
-      <webElementGuid>e94d71ac-aad2-471f-9f3f-2aefaaf16169</webElementGuid>
+      <webElementGuid>7ee4102a-8d59-4b60-8696-7f877de98771</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btn-make-appointment&quot;)</value>
-      <webElementGuid>8631152f-eb97-4b37-9709-b9354db2f917</webElementGuid>
+      <webElementGuid>9ce32151-2547-4fa5-965f-1bdb9dd3bfea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='btn-make-appointment']</value>
-      <webElementGuid>99f25859-fae7-4f65-8179-581be5a14251</webElementGuid>
+      <webElementGuid>74aaf6b5-dfde-4412-b880-11b8a22582cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//header[@id='top']/div/a</value>
-      <webElementGuid>29dd9c73-efd0-429a-9e47-b869090ba887</webElementGuid>
+      <webElementGuid>9fcd85c3-ce91-4616-8276-bd7aa030d504</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Make Appointment')]</value>
-      <webElementGuid>ad546119-4c17-4a6f-a767-e200c9611150</webElementGuid>
+      <webElementGuid>a053c328-9fcc-45d1-95cc-236a667265b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::a[1]</value>
-      <webElementGuid>a18f49ea-fa3e-4359-a1fb-4af6adc7164f</webElementGuid>
+      <webElementGuid>a3abc6ca-2c39-41ff-b9f8-1165723ba0ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[2]/following::a[1]</value>
-      <webElementGuid>48d12d1b-1b7b-48a2-b18b-1411566df3af</webElementGuid>
+      <webElementGuid>99bac0ee-516f-4a2a-ac47-510efc472a2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::a[1]</value>
-      <webElementGuid>8d7d8fb5-3430-480d-a0ff-faa9fae104dc</webElementGuid>
+      <webElementGuid>53e1c59e-4d76-48a0-bad5-a7490bf322bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::a[1]</value>
-      <webElementGuid>91988901-27ec-4c19-8a9b-5bfd6e352bc8</webElementGuid>
+      <webElementGuid>8e157571-9300-46de-aa58-e48a2f84bd6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Make Appointment']/parent::*</value>
-      <webElementGuid>585fb00a-86c6-42a8-8af9-e4d4b4bf21dd</webElementGuid>
+      <webElementGuid>7b2b28d7-e0a0-404f-af6a-0335359c34eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, './profile.php#login')]</value>
-      <webElementGuid>856f068a-af49-40ec-aaeb-cf3c57861de6</webElementGuid>
+      <webElementGuid>4f9ad5b8-2c8f-4a7b-9539-232eee2cab97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
-      <webElementGuid>f7435171-efe1-4c68-abd2-2ec7327da977</webElementGuid>
+      <webElementGuid>f9872d1b-97b3-4a18-82ae-da94b334bc92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]</value>
-      <webElementGuid>58501734-7b0f-4bf8-a13d-e943b8dc547e</webElementGuid>
+      <webElementGuid>5feb2ac0-2e51-4dd4-8806-ec67e88cf8c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

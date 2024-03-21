@@ -4,9 +4,11 @@
    <name>XRAY-KS-TO</name>
    <tag></tag>
    <UUID>fa9533f6-29c7-41a4-b045-934de34a8b01</UUID>
+   <createdVersion>9.3.1</createdVersion>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\sabar\Katalon\XRAY-KS-TO\XRAY-KS-TO.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
